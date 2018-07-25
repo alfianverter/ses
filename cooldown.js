@@ -1,0 +1,1 @@
+exports.cooldown = new Set();

@@ -1,0 +1,1399 @@
+dependencies:
+  canvas: 1.6.11
+  canvas-constructor: 1.0.1
+  cheerio: 1.0.0-rc.2
+  cr.js: 0.2.2
+  dbl-api: 1.2.1
+  dblapi.js: 2.1.0
+  discord-eco: 0.0.10
+  discord.js: 11.3.2
+  express: 4.16.3
+  figlet: 1.2.0
+  fs: 0.0.1-security
+  gif-search: 2.0.1
+  google-translate-api: 2.3.0
+  he: 1.1.1
+  http: 0.0.0
+  isgd: 1.1.3
+  klasa: 0.4.0
+  map: 1.0.1
+  moment: 2.22.2
+  moment-duration-format: 2.2.2
+  nekos.life: 1.0.6
+  opusscript: 0.0.6
+  parse-ms: 2.0.0
+  random-puppy: 1.1.0
+  request: 2.87.0
+  simi: 1.0.1
+  string-similarity: 1.2.0
+  superagent: 3.8.3
+  weather-js: 2.0.0
+  xml2js: 0.4.19
+  ytdl-core: 0.20.4
+packages:
+  /@types/node/10.5.1:
+    dev: false
+    resolution:
+      integrity: sha512-AFLl1IALIuyt6oK4AYZsgWVJ/5rnyzQWud7IebaZWWV3YmgtPZkQmYio9R5Ze/2pdd7XfqF5bP+hWS11mAKoOQ==
+  /accepts/1.3.5:
+    dependencies:
+      mime-types: 2.1.18
+      negotiator: 0.6.1
+    dev: false
+    engines:
+      node: '>= 0.6'
+    resolution:
+      integrity: sha1-63d99gEXI6OxTopywIBcjoZ0a9I=
+  /ajv/5.5.2:
+    dependencies:
+      co: 4.6.0
+      fast-deep-equal: 1.1.0
+      fast-json-stable-stringify: 2.0.0
+      json-schema-traverse: 0.3.1
+    dev: false
+    resolution:
+      integrity: sha1-c7Xuyj+rZT49P5Qis0GtQiBdyWU=
+  /array-flatten/1.1.1:
+    dev: false
+    resolution:
+      integrity: sha1-ml9pkFGx5wczKPKgCJaLZOopVdI=
+  /asn1/0.2.3:
+    dev: false
+    resolution:
+      integrity: sha1-2sh4dxPJlmhJ/IGAd36+nB3fO4Y=
+  /assert-plus/1.0.0:
+    dev: false
+    engines:
+      node: '>=0.8'
+    resolution:
+      integrity: sha1-8S4PPF13sLHN2RRpQuTpbB5N1SU=
+  /async-limiter/1.0.0:
+    dev: false
+    resolution:
+      integrity: sha512-jp/uFnooOiO+L211eZOoSyzpOITMXx1rBITauYykG3BRYPu8h0UcxsPNB04RR5vo4Tyz3+ay17tR6JVf9qzYWg==
+  /asynckit/0.4.0:
+    dev: false
+    resolution:
+      integrity: sha1-x57Zf380y48robyXkLzDZkdLS3k=
+  /aws-sign2/0.7.0:
+    dev: false
+    resolution:
+      integrity: sha1-tG6JCTSpWR8tL2+G1+ap8bP+dqg=
+  /aws4/1.7.0:
+    dev: false
+    resolution:
+      integrity: sha512-32NDda82rhwD9/JBCCkB+MRYDp0oSvlo2IL6rQWA10PQi7tDUM3eqMSltXmY+Oyl/7N3P3qNtAlv7X0d9bI28w==
+  /bcrypt-pbkdf/1.0.2:
+    dependencies:
+      tweetnacl: 0.14.5
+    dev: false
+    optional: true
+    resolution:
+      integrity: sha1-pDAdOJtqQ/m2f/PKEaP2Y342Dp4=
+  /body-parser/1.18.2:
+    dependencies:
+      bytes: 3.0.0
+      content-type: 1.0.4
+      debug: 2.6.9
+      depd: 1.1.2
+      http-errors: 1.6.3
+      iconv-lite: 0.4.19
+      on-finished: 2.3.0
+      qs: 6.5.1
+      raw-body: 2.3.2
+      type-is: 1.6.16
+    dev: false
+    engines:
+      node: '>= 0.8'
+    resolution:
+      integrity: sha1-h2eKGdhLR9hZuDGZvVm84iKxBFQ=
+  /boolbase/1.0.0:
+    dev: false
+    resolution:
+      integrity: sha1-aN/1++YMUes3cl6p4+0xDcwed24=
+  /bytes/3.0.0:
+    dev: false
+    engines:
+      node: '>= 0.8'
+    resolution:
+      integrity: sha1-0ygVQE1olpn4Wk6k+odV3ROpYEg=
+  /canvas-constructor/1.0.1:
+    dev: false
+    peerDependencies:
+      canvas: 'github:Automattic/node-canvas'
+    resolution:
+      integrity: sha512-YL6iIt1OBZuT2OfTxsg5mGl+sH3Wx1sJWdfu1qxZHvpPXA2JtM0H1krR9SKFOFeaNMZHwHBI4Xqfj1u9LgGchA==
+  /canvas/1.6.11:
+    dependencies:
+      nan: 2.10.0
+    dev: false
+    engines:
+      node: '>=0.8.0'
+    requiresBuild: true
+    resolution:
+      integrity: sha512-ElVw5Uk8PReGpzXfDg6PDa+wntnZLGWWfdSHI0Pc8GyXiFbW13drSTzWU6C4E5QylHe+FnLqI7ngMRlp3eGZIQ==
+  /capture-stack-trace/1.0.0:
+    dev: false
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-Sm+gc5nCa7pH8LJJa00PtAjFVQ0=
+  /caseless/0.12.0:
+    dev: false
+    resolution:
+      integrity: sha1-G2gcIf+EAzyCZUMJBolCDRhxUdw=
+  /cheerio/1.0.0-rc.2:
+    dependencies:
+      css-select: 1.2.0
+      dom-serializer: 0.1.0
+      entities: 1.1.1
+      htmlparser2: 3.9.2
+      lodash: 4.17.10
+      parse5: 3.0.3
+    dev: false
+    engines:
+      node: '>= 0.6'
+    resolution:
+      integrity: sha1-S59TqBsn5NXawxwP/Qz6A8xoMNs=
+  /co/4.6.0:
+    dev: false
+    engines:
+      iojs: '>= 1.0.0'
+      node: '>= 0.12.0'
+    resolution:
+      integrity: sha1-bqa989hTrlTMuOR7+gvz+QMfsYQ=
+  /combined-stream/1.0.6:
+    dependencies:
+      delayed-stream: 1.0.0
+    dev: false
+    engines:
+      node: '>= 0.8'
+    resolution:
+      integrity: sha1-cj599ugBrFYTETp+RFqbactjKBg=
+  /component-emitter/1.2.1:
+    dev: false
+    resolution:
+      integrity: sha1-E3kY1teCg/ffemt8WmPhQOaUJeY=
+  /configstore/2.1.0:
+    dependencies:
+      dot-prop: 3.0.0
+      graceful-fs: 4.1.11
+      mkdirp: 0.5.1
+      object-assign: 4.1.1
+      os-tmpdir: 1.0.2
+      osenv: 0.1.5
+      uuid: 2.0.3
+      write-file-atomic: 1.3.4
+      xdg-basedir: 2.0.0
+    dev: false
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-c3o6cDbpiGECqmCZ5HuzOrGroaE=
+  /content-disposition/0.5.2:
+    dev: false
+    engines:
+      node: '>= 0.6'
+    resolution:
+      integrity: sha1-DPaLud318r55YcOoUXjLhdunjLQ=
+  /content-type/1.0.4:
+    dev: false
+    engines:
+      node: '>= 0.6'
+    resolution:
+      integrity: sha512-hIP3EEPs8tB9AT1L+NUqtwOAps4mk2Zob89MWXMHjHWg9milF/j4osnnQLXBCBFBk/tvIG/tUc9mOUJiPBhPXA==
+  /cookie-signature/1.0.6:
+    dev: false
+    resolution:
+      integrity: sha1-4wOogrNCzD7oylE6eZmXNNqzriw=
+  /cookie/0.3.1:
+    dev: false
+    engines:
+      node: '>= 0.6'
+    resolution:
+      integrity: sha1-5+Ch+e9DtMi6klxcWpboBtFoc7s=
+  /cookiejar/2.1.2:
+    dev: false
+    resolution:
+      integrity: sha512-Mw+adcfzPxcPeI+0WlvRrr/3lGVO0bD75SxX6811cxSh1Wbxx7xZBGK1eVtDf6si8rg2lhnUjsVLMFMfbRIuwA==
+  /core-util-is/1.0.2:
+    dev: false
+    resolution:
+      integrity: sha1-tf1UIgqivFq1eqtxQMlAdUUDwac=
+  /cr.js/0.2.2:
+    dependencies:
+      snekfetch: 3.6.4
+    dev: false
+    resolution:
+      integrity: sha512-B2iKsFZMky6MOUdaz4/6jzJH7DN6RdlOhrg1sYo8SYvZE7xWMi8IzixAPg0L223BySr4tJtJnP+N42V6HMctig==
+  /create-error-class/3.0.2:
+    dependencies:
+      capture-stack-trace: 1.0.0
+    dev: false
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-Br56vvlHo/FKMP1hBnHUAbyot7Y=
+  /css-select/1.2.0:
+    dependencies:
+      boolbase: 1.0.0
+      css-what: 2.1.0
+      domutils: 1.5.1
+      nth-check: 1.0.1
+    dev: false
+    resolution:
+      integrity: sha1-KzoRBTnFNV8c2NMUYj6HCxIeyFg=
+  /css-what/2.1.0:
+    dev: false
+    resolution:
+      integrity: sha1-lGfQMsOM+u+58teVASUwYvh/ob0=
+  /dashdash/1.14.1:
+    dependencies:
+      assert-plus: 1.0.0
+    dev: false
+    engines:
+      node: '>=0.10'
+    resolution:
+      integrity: sha1-hTz6D3y+L+1d4gMmuN1YEDX24vA=
+  /dbl-api/1.2.1:
+    dependencies:
+      snekfetch: 3.6.4
+    dev: false
+    resolution:
+      integrity: sha512-kBScgc/8CyQGKIJH8tLqvTjYe3wn5dqYoFcyAddDaXpxbSdf4hPS5YC4kNQ9KxVMhoecKx2by/nrTACsqzhoaw==
+  /dblapi.js/2.1.0:
+    dependencies:
+      snekfetch: 4.0.4
+    dev: false
+    resolution:
+      integrity: sha512-oz7obgPbQj4MB2sXVXYQ7L+ES6GurVwQoMQ6gP2xPovMIwSZJuyh5QkvjVN+5HiOk3U/SCTcqV9ehWVBMvjmrA==
+  /debug/2.6.9:
+    dependencies:
+      ms: 2.0.0
+    dev: false
+    resolution:
+      integrity: sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA==
+  /debug/3.1.0:
+    dependencies:
+      ms: 2.0.0
+    dev: false
+    resolution:
+      integrity: sha512-OX8XqP7/1a9cqkxYw2yXss15f26NKWBpDXQd0/uK/KPqdQhxbPa994hnzjcE2VqQpDslf55723cKPUOGSmMY3g==
+  /delayed-stream/1.0.0:
+    dev: false
+    engines:
+      node: '>=0.4.0'
+    resolution:
+      integrity: sha1-3zrhmayt+31ECqrgsp4icrJOxhk=
+  /depd/1.1.1:
+    dev: false
+    engines:
+      node: '>= 0.6'
+    resolution:
+      integrity: sha1-V4O04cRZ8G+lyif5kfPQbnoxA1k=
+  /depd/1.1.2:
+    dev: false
+    engines:
+      node: '>= 0.6'
+    resolution:
+      integrity: sha1-m81S4UwJd2PnSbJ0xDRu0uVgtak=
+  /destroy/1.0.4:
+    dev: false
+    resolution:
+      integrity: sha1-l4hXRCxEdJ5CBmE+N5RiBYJqvYA=
+  /discord-eco/0.0.10:
+    dependencies:
+      sqlite3: 3.1.13
+    dev: false
+    resolution:
+      integrity: sha512-8+x7z211xhiDt2kldpuX3FzsKzSyUkZ8CwgFzsr6HV9NSXoRTdWpIoTa5QhgB1foTD0JtFkm7wXV59ihxvwz5Q==
+  /discord.js/11.3.2:
+    dependencies:
+      long: 4.0.0
+      prism-media: 0.0.2
+      snekfetch: 3.6.4
+      tweetnacl: 1.0.0
+      ws: 4.1.0
+    dev: false
+    engines:
+      node: '>=6.0.0'
+    peerDependencies:
+      bufferutil: ^3.0.3
+      erlpack: discordapp/erlpack
+      libsodium-wrappers: ^0.7.3
+      node-opus: ^0.2.7
+      opusscript: ^0.0.6
+      sodium: ^2.0.3
+      uws: ^9.14.0
+    resolution:
+      integrity: sha512-Abw9CTMX3Jb47IeRffqx2VNSnXl/OsTdQzhvbw/JnqCyqc2imAocc7pX2HoRmgKd8CgSqsjBFBneusz/E16e6A==
+  /dom-serializer/0.1.0:
+    dependencies:
+      domelementtype: 1.1.3
+      entities: 1.1.1
+    dev: false
+    resolution:
+      integrity: sha1-BzxpdUbOB4DOI75KKOKT5AvDDII=
+  /domelementtype/1.1.3:
+    dev: false
+    resolution:
+      integrity: sha1-vSh3PiZCiBrsUVRJJCmcXNgiGFs=
+  /domelementtype/1.3.0:
+    dev: false
+    resolution:
+      integrity: sha1-sXrtguirWeUt2cGbF1bg/BhyBMI=
+  /domhandler/2.4.2:
+    dependencies:
+      domelementtype: 1.3.0
+    dev: false
+    resolution:
+      integrity: sha512-JiK04h0Ht5u/80fdLMCEmV4zkNh2BcoMFBmZ/91WtYZ8qVXSKjiw7fXMgFPnHcSZgOo3XdinHvmnDUeMf5R4wA==
+  /domutils/1.5.1:
+    dependencies:
+      dom-serializer: 0.1.0
+      domelementtype: 1.3.0
+    dev: false
+    resolution:
+      integrity: sha1-3NhIiib1Y9YQeeSMn3t+Mjc2gs8=
+  /domutils/1.7.0:
+    dependencies:
+      dom-serializer: 0.1.0
+      domelementtype: 1.3.0
+    dev: false
+    resolution:
+      integrity: sha512-Lgd2XcJ/NjEw+7tFvfKxOzCYKZsdct5lczQ2ZaQY8Djz7pfAD3Gbp8ySJWtreII/vDlMVmxwa6pHmdxIYgttDg==
+  /dot-prop/3.0.0:
+    dependencies:
+      is-obj: 1.0.1
+    dev: false
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-G3CK8JSknJoOfbyteQq6U52sEXc=
+  /duplexer3/0.1.4:
+    dev: false
+    resolution:
+      integrity: sha1-7gHdHKwO08vH/b6jfcCo8c4ALOI=
+  /ecc-jsbn/0.1.1:
+    dependencies:
+      jsbn: 0.1.1
+    dev: false
+    optional: true
+    resolution:
+      integrity: sha1-D8c6ntXw1Tw4GTOYUj735UN3dQU=
+  /ee-first/1.1.1:
+    dev: false
+    resolution:
+      integrity: sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
+  /encodeurl/1.0.2:
+    dev: false
+    engines:
+      node: '>= 0.8'
+    resolution:
+      integrity: sha1-rT/0yG7C0CkyL1oCw6mmBslbP1k=
+  /entities/1.1.1:
+    dev: false
+    resolution:
+      integrity: sha1-blwtClYhtdra7O+AuQ7ftc13cvA=
+  /escape-html/1.0.3:
+    dev: false
+    resolution:
+      integrity: sha1-Aljq5NPQwJdN4cFpGI7wBR0dGYg=
+  /etag/1.8.1:
+    dev: false
+    engines:
+      node: '>= 0.6'
+    resolution:
+      integrity: sha1-Qa4u62XvpiJorr/qg6x9eSmbCIc=
+  /eventemitter3/1.2.0:
+    dev: false
+    resolution:
+      integrity: sha1-HIaZHYFq0eUEdQ5zh0Ik7PO+xQg=
+  /express/4.16.3:
+    dependencies:
+      accepts: 1.3.5
+      array-flatten: 1.1.1
+      body-parser: 1.18.2
+      content-disposition: 0.5.2
+      content-type: 1.0.4
+      cookie: 0.3.1
+      cookie-signature: 1.0.6
+      debug: 2.6.9
+      depd: 1.1.2
+      encodeurl: 1.0.2
+      escape-html: 1.0.3
+      etag: 1.8.1
+      finalhandler: 1.1.1
+      fresh: 0.5.2
+      merge-descriptors: 1.0.1
+      methods: 1.1.2
+      on-finished: 2.3.0
+      parseurl: 1.3.2
+      path-to-regexp: 0.1.7
+      proxy-addr: 2.0.3
+      qs: 6.5.1
+      range-parser: 1.2.0
+      safe-buffer: 5.1.1
+      send: 0.16.2
+      serve-static: 1.13.2
+      setprototypeof: 1.1.0
+      statuses: 1.4.0
+      type-is: 1.6.16
+      utils-merge: 1.0.1
+      vary: 1.1.2
+    dev: false
+    engines:
+      node: '>= 0.10.0'
+    resolution:
+      integrity: sha1-avilAjUNsyRuzEvs9rWjTSL37VM=
+  /extend/3.0.1:
+    dev: false
+    resolution:
+      integrity: sha1-p1Xqe8Gt/MWjHOfnYtuq3F5jZEQ=
+  /extsprintf/1.3.0:
+    dev: false
+    engines:
+      '0': node >=0.6.0
+    resolution:
+      integrity: sha1-lpGEQOMEGnpBT4xS48V06zw+HgU=
+  /extsprintf/1.4.0:
+    dev: false
+    engines:
+      '0': node >=0.6.0
+    resolution:
+      integrity: sha1-4mifjzVvrWLMplo6kcXfX5VRaS8=
+  /fast-deep-equal/1.1.0:
+    dev: false
+    resolution:
+      integrity: sha1-wFNHeBfIa1HaqFPIHgWbcz0CNhQ=
+  /fast-json-stable-stringify/2.0.0:
+    dev: false
+    resolution:
+      integrity: sha1-1RQsDK7msRifh9OnYREGT4bIu/I=
+  /figlet/1.2.0:
+    dev: false
+    engines:
+      node: '>= 0.4.0'
+    resolution:
+      integrity: sha1-bEZTc3j6tkkUa1phQ92gGbQwtBA=
+  /finalhandler/1.1.1:
+    dependencies:
+      debug: 2.6.9
+      encodeurl: 1.0.2
+      escape-html: 1.0.3
+      on-finished: 2.3.0
+      parseurl: 1.3.2
+      statuses: 1.4.0
+      unpipe: 1.0.0
+    dev: false
+    engines:
+      node: '>= 0.8'
+    resolution:
+      integrity: sha512-Y1GUDo39ez4aHAw7MysnUD5JzYX+WaIj8I57kO3aEPT1fFRL4sr7mjei97FgnwhAyyzRYmQZaTHb2+9uZ1dPtg==
+  /forever-agent/0.6.1:
+    dev: false
+    resolution:
+      integrity: sha1-+8cfDEGt6zf5bFd60e1C2P2sypE=
+  /form-data/2.3.2:
+    dependencies:
+      asynckit: 0.4.0
+      combined-stream: 1.0.6
+      mime-types: 2.1.18
+    dev: false
+    engines:
+      node: '>= 0.12'
+    resolution:
+      integrity: sha1-SXBJi+YEwgwAXU9cI67NIda0kJk=
+  /formidable/1.2.1:
+    dev: false
+    resolution:
+      integrity: sha512-Fs9VRguL0gqGHkXS5GQiMCr1VhZBxz0JnJs4JmMp/2jL18Fmbzvv7vOFRU+U8TBkHEE/CX1qDXzJplVULgsLeg==
+  /forwarded/0.1.2:
+    dev: false
+    engines:
+      node: '>= 0.6'
+    resolution:
+      integrity: sha1-mMI9qxF1ZXuMBXPozszZGw/xjIQ=
+  /fresh/0.5.2:
+    dev: false
+    engines:
+      node: '>= 0.6'
+    resolution:
+      integrity: sha1-PYyt2Q2XZWn6g1qx+OSyOhBWBac=
+  /fs-nextra/0.3.5:
+    dev: false
+    engines:
+      node: '>=8.5.0'
+    resolution:
+      integrity: sha512-3H/szkxN7B88iiOU7FyFs1UGDrl2PD2MLZpsgVPkIXYY8W1Bh5W+1ZrwcNIUN71ilrwb4FdsFct7SI6avaAnMg==
+  /fs/0.0.1-security:
+    dev: false
+    resolution:
+      integrity: sha1-invTcYa23d84E/I4WLV+yq9eQdQ=
+  /get-stream/3.0.0:
+    dev: false
+    engines:
+      node: '>=4'
+    resolution:
+      integrity: sha1-jpQ9E1jcN1VQVOy+LtsFqhdO3hQ=
+  /getpass/0.1.7:
+    dependencies:
+      assert-plus: 1.0.0
+    dev: false
+    resolution:
+      integrity: sha1-Xv+OPmhNVprkyysSgmBOi6YhSfo=
+  /gif-search/2.0.1:
+    dependencies:
+      request: 2.87.0
+    dev: false
+    engines:
+      node: '>=4.0.0'
+    resolution:
+      integrity: sha1-yXohVhyj3HWWD5xs8Tr7gs0hAcw=
+  /google-translate-api/2.3.0:
+    dependencies:
+      configstore: 2.1.0
+      google-translate-token: 1.0.0
+      got: 6.7.1
+      safe-eval: 0.3.0
+    dev: false
+    resolution:
+      integrity: sha1-YmcwoSPaDVevNzXdcHzacc7pGcc=
+  /google-translate-token/1.0.0:
+    dependencies:
+      configstore: 2.1.0
+      got: 6.7.1
+    dev: false
+    resolution:
+      integrity: sha1-vpQ0RXhvAMN2Xewx9JDawhIo0/g=
+  /got/6.7.1:
+    dependencies:
+      create-error-class: 3.0.2
+      duplexer3: 0.1.4
+      get-stream: 3.0.0
+      is-redirect: 1.0.0
+      is-retry-allowed: 1.1.0
+      is-stream: 1.1.0
+      lowercase-keys: 1.0.1
+      safe-buffer: 5.1.2
+      timed-out: 4.0.1
+      unzip-response: 2.0.1
+      url-parse-lax: 1.0.0
+    dev: false
+    engines:
+      node: '>=4'
+    resolution:
+      integrity: sha1-JAzQV4WpoY5WHcG0S0HHY+8ejbA=
+  /graceful-fs/4.1.11:
+    dev: false
+    engines:
+      node: '>=0.4.0'
+    resolution:
+      integrity: sha1-Dovf5NHduIVNZOBOp8AOKgJuVlg=
+  /har-schema/2.0.0:
+    dev: false
+    engines:
+      node: '>=4'
+    resolution:
+      integrity: sha1-qUwiJOvKwEeCoNkDVSHyRzW37JI=
+  /har-validator/5.0.3:
+    dependencies:
+      ajv: 5.5.2
+      har-schema: 2.0.0
+    dev: false
+    engines:
+      node: '>=4'
+    resolution:
+      integrity: sha1-ukAsJmGU8VlW7xXg/PJCmT9qff0=
+  /he/1.1.1:
+    dev: false
+    hasBin: true
+    resolution:
+      integrity: sha1-k0EP0hsAlzUVH4howvJx80J+I/0=
+  /html-entities/1.2.1:
+    dev: false
+    engines:
+      '0': node >= 0.4.0
+    resolution:
+      integrity: sha1-DfKTUfByEWNRXfueVUPl9u7VFi8=
+  /htmlparser2/3.9.2:
+    dependencies:
+      domelementtype: 1.3.0
+      domhandler: 2.4.2
+      domutils: 1.7.0
+      entities: 1.1.1
+      inherits: 2.0.3
+      readable-stream: 2.3.6
+    dev: false
+    resolution:
+      integrity: sha1-G9+HrMoPP55T+k/M6w9LTLsAszg=
+  /http-errors/1.6.2:
+    dependencies:
+      depd: 1.1.1
+      inherits: 2.0.3
+      setprototypeof: 1.0.3
+      statuses: 1.5.0
+    dev: false
+    engines:
+      node: '>= 0.6'
+    resolution:
+      integrity: sha1-CgAsyFcHGSp+eUbO7cERVfYOxzY=
+  /http-errors/1.6.3:
+    dependencies:
+      depd: 1.1.2
+      inherits: 2.0.3
+      setprototypeof: 1.1.0
+      statuses: 1.5.0
+    dev: false
+    engines:
+      node: '>= 0.6'
+    resolution:
+      integrity: sha1-i1VoC7S+KDoLW/TqLjhYC+HZMg0=
+  /http-signature/1.2.0:
+    dependencies:
+      assert-plus: 1.0.0
+      jsprim: 1.4.1
+      sshpk: 1.14.2
+    dev: false
+    engines:
+      node: '>=0.8'
+      npm: '>=1.3.7'
+    resolution:
+      integrity: sha1-muzZJRFHcvPZW2WmCruPfBj7rOE=
+  /http/0.0.0:
+    dev: false
+    resolution:
+      integrity: sha1-huYybSnF0Dnen6xYSkVon5KfT3I=
+  /iconv-lite/0.4.19:
+    dev: false
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha512-oTZqweIP51xaGPI4uPa56/Pri/480R+mo7SeU+YETByQNhDG55ycFyNLIgta9vXhILrxXDmF7ZGhqZIcuN0gJQ==
+  /imurmurhash/0.1.4:
+    dev: false
+    engines:
+      node: '>=0.8.19'
+    resolution:
+      integrity: sha1-khi5srkoojixPcT7a21XbyMUU+o=
+  /inherits/2.0.3:
+    dev: false
+    resolution:
+      integrity: sha1-Yzwsg+PaQqUC9SRmAiSA9CCCYd4=
+  /ipaddr.js/1.6.0:
+    dev: false
+    engines:
+      node: '>= 0.10'
+    resolution:
+      integrity: sha1-4/o1e3c9phnybpXwSdBVxyeW+Gs=
+  /is-obj/1.0.1:
+    dev: false
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-PkcprB9f3gJc19g6iW2rn09n2w8=
+  /is-redirect/1.0.0:
+    dev: false
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-HQPd7VO9jbDzDCbk+V02/HyH3CQ=
+  /is-retry-allowed/1.1.0:
+    dev: false
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-EaBgVotnM5REAz0BJaYaINVk+zQ=
+  /is-stream/1.1.0:
+    dev: false
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-EtSj3U5o4Lec6428hBc66A2RykQ=
+  /is-typedarray/1.0.0:
+    dev: false
+    resolution:
+      integrity: sha1-5HnICFjfDBsR3dppQPlgEfzaSpo=
+  /isarray/1.0.0:
+    dev: false
+    resolution:
+      integrity: sha1-u5NdSFgsuhaMBoNJV6VKPgcSTxE=
+  /isgd/1.1.3:
+    dev: false
+    resolution:
+      integrity: sha1-mICNrBUqckdJfF0GgwgBLsz6Q1E=
+  /isstream/0.1.2:
+    dev: false
+    resolution:
+      integrity: sha1-R+Y/evVa+m+S4VAOaQ64uFKcCZo=
+  /jsbn/0.1.1:
+    dev: false
+    optional: true
+    resolution:
+      integrity: sha1-peZUwuWi3rXyAdls77yoDA7y9RM=
+  /json-schema-traverse/0.3.1:
+    dev: false
+    resolution:
+      integrity: sha1-NJptRMU6Ud6JtAgFxdXlm0F9M0A=
+  /json-schema/0.2.3:
+    dev: false
+    resolution:
+      integrity: sha1-tIDIkuWaLwWVTOcnvT8qTogvnhM=
+  /json-stringify-safe/5.0.1:
+    dev: false
+    resolution:
+      integrity: sha1-Epai1Y/UXxmg9s4B1lcB4sc1tus=
+  /jsprim/1.4.1:
+    dependencies:
+      assert-plus: 1.0.0
+      extsprintf: 1.3.0
+      json-schema: 0.2.3
+      verror: 1.10.0
+    dev: false
+    engines:
+      '0': node >=0.6.0
+    resolution:
+      integrity: sha1-MT5mvB5cwG5Di8G3SZwuXFastqI=
+  /klasa/0.4.0:
+    dependencies:
+      fs-nextra: 0.3.5
+      moment: 2.22.2
+    dev: false
+    engines:
+      node: '>=8.5.0'
+    peerDependencies:
+      discord.js: 'github:hydrabolt/discord.js#master'
+    resolution:
+      integrity: sha512-nWJqApvWkb61lpnwoII84hjiR0AMiAmo5HnKXMaocIWuuUFPS6OLR4UPYQelUlahI3xoJAxhajkIeJZI0M0yog==
+  /lodash/4.17.10:
+    dev: false
+    resolution:
+      integrity: sha512-UejweD1pDoXu+AD825lWwp4ZGtSwgnpZxb3JDViD7StjQz+Nb/6l093lx4OQ0foGWNRoc19mWy7BzL+UAK2iVg==
+  /long/4.0.0:
+    dev: false
+    resolution:
+      integrity: sha512-XsP+KhQif4bjX1kbuSiySJFNAehNxgLb6hPRGJ9QsUr8ajHkuXGdrHmFUTUUXhDwVX2R5bY4JNZEwbUiMhV+MA==
+  /lowercase-keys/1.0.1:
+    dev: false
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha512-G2Lj61tXDnVFFOi8VZds+SoQjtQC3dgokKdDG2mTm1tx4m50NUHBOZSBwQQHyy0V12A0JTG4icfZQH+xPyh8VA==
+  /m3u8stream/0.2.2:
+    dependencies:
+      miniget: 1.2.0
+    dev: false
+    engines:
+      node: '>=4'
+    resolution:
+      integrity: sha512-R/xWLXBtVr0m9sPruRL4p9uO01JyHxhcQ4nhqQhVgyT802OZyVW+dn+fWHvTnbfE6YMLc65TksZZut+Mh2OVMQ==
+  /map/1.0.1:
+    dev: false
+    resolution:
+      integrity: sha1-mKokwl3F9o8angqR7i/wgWM0rFY=
+  /media-typer/0.3.0:
+    dev: false
+    engines:
+      node: '>= 0.6'
+    resolution:
+      integrity: sha1-hxDXrwqmJvj/+hzgAWhUUmMlV0g=
+  /merge-descriptors/1.0.1:
+    dev: false
+    resolution:
+      integrity: sha1-sAqqVW3YtEVoFQ7J0blT8/kMu2E=
+  /methods/1.1.2:
+    dev: false
+    engines:
+      node: '>= 0.6'
+    resolution:
+      integrity: sha1-VSmk1nZUE07cxSZmVoNbD4Ua/O4=
+  /mime-db/1.33.0:
+    dev: false
+    engines:
+      node: '>= 0.6'
+    resolution:
+      integrity: sha512-BHJ/EKruNIqJf/QahvxwQZXKygOQ256myeN/Ew+THcAa5q+PjyTTMMeNQC4DZw5AwfvelsUrA6B67NKMqXDbzQ==
+  /mime-types/2.1.18:
+    dependencies:
+      mime-db: 1.33.0
+    dev: false
+    engines:
+      node: '>= 0.6'
+    resolution:
+      integrity: sha512-lc/aahn+t4/SWV/qcmumYjymLsWfN3ELhpmVuUFjgsORruuZPVSwAQryq+HHGvO/SI2KVX26bx+En+zhM8g8hQ==
+  /mime/1.4.1:
+    dev: false
+    hasBin: true
+    resolution:
+      integrity: sha512-KI1+qOZu5DcW6wayYHSzR/tXKCDC5Om4s1z2QJjDULzLcmf3DvzS7oluY4HCTrc+9FiKmWUgeNLg7W3uIQvxtQ==
+  /mime/1.6.0:
+    dev: false
+    engines:
+      node: '>=4'
+    hasBin: true
+    resolution:
+      integrity: sha512-x0Vn8spI+wuJ1O6S7gnbaQg8Pxh4NNHb7KSINmEWKiPE4RKOplvijn+NkmYmmRgP68mc70j2EbeTFRsrswaQeg==
+  /miniget/1.2.0:
+    dev: false
+    engines:
+      node: '>=4'
+    resolution:
+      integrity: sha1-ADY3Oia71S2+aUX85sjAOR6eEkE=
+  /minimist/0.0.8:
+    dev: false
+    resolution:
+      integrity: sha1-hX/Kv8M5fSYluCKCYuhqp6ARsF0=
+  /mkdirp/0.5.1:
+    dependencies:
+      minimist: 0.0.8
+    dev: false
+    hasBin: true
+    resolution:
+      integrity: sha1-MAV0OOrGz3+MR2fzhkjWaX11yQM=
+  /moment-duration-format/2.2.2:
+    dev: false
+    resolution:
+      integrity: sha1-uVdhLeJgFsmtnrYIfAVFc+USd3k=
+  /moment/2.22.2:
+    dev: false
+    resolution:
+      integrity: sha1-PCV/mDn8DpP/UxSWMiOeuQeD/2Y=
+  /ms/2.0.0:
+    dev: false
+    resolution:
+      integrity: sha1-VgiurfwAvmwpAd9fmGF4jeDVl8g=
+  /nan/2.10.0:
+    dev: false
+    resolution:
+      integrity: sha512-bAdJv7fBLhWC+/Bls0Oza+mvTaNQtP+1RyhhhvD95pgUJz6XM5IzgmxOkItJ9tkoCiplvAnXI1tNmmUD/eScyA==
+  /nan/2.7.0:
+    dev: false
+    resolution:
+      integrity: sha1-2Vv3IeyHfgjbJ27T/G63j5CDrUY=
+  /negotiator/0.6.1:
+    dev: false
+    engines:
+      node: '>= 0.6'
+    resolution:
+      integrity: sha1-KzJxhOiZIQEXeyhWP7XnECrNDKk=
+  /nekos.life/1.0.6:
+    dev: false
+    resolution:
+      integrity: sha512-ppeXlgIiQTKceLUmNXKBtS1npi0kgREjhlM5gSzkqr9zh7QODV+9y78Oiq7caccuQSYSP+X54NMdcW+5JRxSvw==
+  /nth-check/1.0.1:
+    dependencies:
+      boolbase: 1.0.0
+    dev: false
+    resolution:
+      integrity: sha1-mSms32KPwsQQmN6rgqxYDPFJquQ=
+  /oauth-sign/0.8.2:
+    dev: false
+    resolution:
+      integrity: sha1-Rqarfwrq2N6unsBWV4C31O/rnUM=
+  /object-assign/4.1.1:
+    dev: false
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM=
+  /on-finished/2.3.0:
+    dependencies:
+      ee-first: 1.1.1
+    dev: false
+    engines:
+      node: '>= 0.8'
+    resolution:
+      integrity: sha1-IPEzZIGwg811M3mSoWlxqi2QaUc=
+  /opusscript/0.0.6:
+    dev: false
+    resolution:
+      integrity: sha512-F7nx1SWZCD5Rq2W+5Fx39HlkRkz/5Zqt0LglEB9uHexk8HjedDEiM+u/Y2rBfDFcS/0uQIWu2lJhw+Gjsta+cA==
+  /os-homedir/1.0.2:
+    dev: false
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-/7xJiDNuDoM94MFox+8VISGqf7M=
+  /os-tmpdir/1.0.2:
+    dev: false
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-u+Z0BseaqFxc/sdm/lc0VV36EnQ=
+  /osenv/0.1.5:
+    dependencies:
+      os-homedir: 1.0.2
+      os-tmpdir: 1.0.2
+    dev: false
+    resolution:
+      integrity: sha512-0CWcCECdMVc2Rw3U5w9ZjqX6ga6ubk1xDVKxtBQPK7wis/0F2r9T6k4ydGYhecl7YUBxBVxhL5oisPsNxAPe2g==
+  /parse-ms/2.0.0:
+    dev: false
+    engines:
+      node: '>=6'
+    resolution:
+      integrity: sha512-AddiXFSLLCqj+tCRJ9MrUtHZB4DWojO3tk0NVZ+g5MaMQHF2+p2ktqxuoXyPFLljz/aUK0Nfhd/uGWnhXVXEyA==
+  /parse5/3.0.3:
+    dependencies:
+      '@types/node': 10.5.1
+    dev: false
+    resolution:
+      integrity: sha512-rgO9Zg5LLLkfJF9E6CCmXlSE4UVceloys8JrFqCcHloC3usd/kJCyPDwH2SOlzix2j3xaP9sUX3e8+kvkuleAA==
+  /parseurl/1.3.2:
+    dev: false
+    engines:
+      node: '>= 0.8'
+    resolution:
+      integrity: sha1-/CidTtiZMRlGDBViUyYs3I3mW/M=
+  /path-to-regexp/0.1.7:
+    dev: false
+    resolution:
+      integrity: sha1-32BBeABfUi8V60SQ5yR6G/qmf4w=
+  /performance-now/2.1.0:
+    dev: false
+    resolution:
+      integrity: sha1-Ywn04OX6kT7BxpMHrjZLSzd8nns=
+  /prepend-http/1.0.4:
+    dev: false
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-1PRWKwzjaW5BrFLQ4ALlemNdxtw=
+  /prism-media/0.0.2:
+    dev: false
+    resolution:
+      integrity: sha512-L6yc8P5NVG35ivzvfI7bcTYzqFV+K8gTfX9YaJbmIFfMXTs71RMnAupvTQPTCteGsiOy9QcNLkQyWjAafY/hCQ==
+  /process-nextick-args/2.0.0:
+    dev: false
+    resolution:
+      integrity: sha512-MtEC1TqN0EU5nephaJ4rAtThHtC86dNN9qCuEhtshvpVBkAW5ZO7BASN9REnF9eoXGcRub+pFuKEpOHE+HbEMw==
+  /proxy-addr/2.0.3:
+    dependencies:
+      forwarded: 0.1.2
+      ipaddr.js: 1.6.0
+    dev: false
+    engines:
+      node: '>= 0.10'
+    resolution:
+      integrity: sha512-jQTChiCJteusULxjBp8+jftSQE5Obdl3k4cnmLA6WXtK6XFuWRnvVL7aCiBqaLPM8c4ph0S4tKna8XvmIwEnXQ==
+  /punycode/1.4.1:
+    dev: false
+    resolution:
+      integrity: sha1-wNWmOycYgArY4esPpSachN1BhF4=
+  /qs/6.5.1:
+    dev: false
+    engines:
+      node: '>=0.6'
+    resolution:
+      integrity: sha512-eRzhrN1WSINYCDCbrz796z37LOe3m5tmW7RQf6oBntukAG1nmovJvhnwHHRMAfeoItc1m2Hk02WER2aQ/iqs+A==
+  /qs/6.5.2:
+    dev: false
+    engines:
+      node: '>=0.6'
+    resolution:
+      integrity: sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
+  /random-puppy/1.1.0:
+    dependencies:
+      eventemitter3: 1.2.0
+      got: 6.7.1
+      unique-random-array: 1.0.1
+    dev: false
+    engines:
+      node: '>=4.0.0'
+    resolution:
+      integrity: sha1-GtqjTA83bVArWdb9gifqYaRUmTs=
+  /range-parser/1.2.0:
+    dev: false
+    engines:
+      node: '>= 0.6'
+    resolution:
+      integrity: sha1-9JvmtIeJTdxA3MlKMi9hEJLgDV4=
+  /raw-body/2.3.2:
+    dependencies:
+      bytes: 3.0.0
+      http-errors: 1.6.2
+      iconv-lite: 0.4.19
+      unpipe: 1.0.0
+    dev: false
+    engines:
+      node: '>= 0.8'
+    resolution:
+      integrity: sha1-vNYMd9Prk83gBQKVw/N5OJvIj4k=
+  /readable-stream/2.3.6:
+    dependencies:
+      core-util-is: 1.0.2
+      inherits: 2.0.3
+      isarray: 1.0.0
+      process-nextick-args: 2.0.0
+      safe-buffer: 5.1.2
+      string_decoder: 1.1.1
+      util-deprecate: 1.0.2
+    dev: false
+    resolution:
+      integrity: sha512-tQtKA9WIAhBF3+VLAseyMqZeBjW0AHJoxOtYqSUZNJxauErmLbVm2FW1y+J/YA9dUrAC39ITejlZWhVIwawkKw==
+  /request/2.87.0:
+    dependencies:
+      aws-sign2: 0.7.0
+      aws4: 1.7.0
+      caseless: 0.12.0
+      combined-stream: 1.0.6
+      extend: 3.0.1
+      forever-agent: 0.6.1
+      form-data: 2.3.2
+      har-validator: 5.0.3
+      http-signature: 1.2.0
+      is-typedarray: 1.0.0
+      isstream: 0.1.2
+      json-stringify-safe: 5.0.1
+      mime-types: 2.1.18
+      oauth-sign: 0.8.2
+      performance-now: 2.1.0
+      qs: 6.5.2
+      safe-buffer: 5.1.2
+      tough-cookie: 2.3.4
+      tunnel-agent: 0.6.0
+      uuid: 3.3.2
+    dev: false
+    engines:
+      node: '>= 4'
+    resolution:
+      integrity: sha512-fcogkm7Az5bsS6Sl0sibkbhcKsnyon/jV1kF3ajGmF0c8HrttdKTPRT9hieOaQHA5HEq6r8OyWOo/o781C1tNw==
+  /safe-buffer/5.1.1:
+    dev: false
+    resolution:
+      integrity: sha512-kKvNJn6Mm93gAczWVJg7wH+wGYWNrDHdWvpUmHyEsgCtIwwo3bqPtV4tR5tuPaUhTOo/kvhVwd8XwwOllGYkbg==
+  /safe-buffer/5.1.2:
+    dev: false
+    resolution:
+      integrity: sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==
+  /safe-eval/0.3.0:
+    dev: false
+    resolution:
+      integrity: sha1-Bs4RHuvZwYWrr/AI7A/P/Fxb4Aw=
+  /safer-buffer/2.1.2:
+    dev: false
+    resolution:
+      integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
+  /sax/1.2.4:
+    dev: false
+    resolution:
+      integrity: sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw==
+  /send/0.16.2:
+    dependencies:
+      debug: 2.6.9
+      depd: 1.1.2
+      destroy: 1.0.4
+      encodeurl: 1.0.2
+      escape-html: 1.0.3
+      etag: 1.8.1
+      fresh: 0.5.2
+      http-errors: 1.6.3
+      mime: 1.4.1
+      ms: 2.0.0
+      on-finished: 2.3.0
+      range-parser: 1.2.0
+      statuses: 1.4.0
+    dev: false
+    engines:
+      node: '>= 0.8.0'
+    resolution:
+      integrity: sha512-E64YFPUssFHEFBvpbbjr44NCLtI1AohxQ8ZSiJjQLskAdKuriYEP6VyGEsRDH8ScozGpkaX1BGvhanqCwkcEZw==
+  /serve-static/1.13.2:
+    dependencies:
+      encodeurl: 1.0.2
+      escape-html: 1.0.3
+      parseurl: 1.3.2
+      send: 0.16.2
+    dev: false
+    engines:
+      node: '>= 0.8.0'
+    resolution:
+      integrity: sha512-p/tdJrO4U387R9oMjb1oj7qSMaMfmOyd4j9hOFoxZe2baQszgHcSWjuya/CiT5kgZZKRudHNOA0pYXOl8rQ5nw==
+  /setprototypeof/1.0.3:
+    dev: false
+    resolution:
+      integrity: sha1-ZlZ+NwQ+608E2RvWWMDL77VbjgQ=
+  /setprototypeof/1.1.0:
+    dev: false
+    resolution:
+      integrity: sha512-BvE/TwpZX4FXExxOxZyRGQQv651MSwmWKZGqvmPcRIjDqWub67kTKuIMx43cZZrS/cBBzwBcNDWoFxt2XEFIpQ==
+  /simi/1.0.1:
+    dev: false
+    resolution:
+      integrity: sha512-fqMglyKw/RUR7NzPRWhVB46SFacyUbQY+FQLI5uV2Uq4Jj/adgknC0A6R2YTJErNY4yIyxhbLo4cz+rQfduVhg==
+  /slide/1.1.6:
+    dev: false
+    resolution:
+      integrity: sha1-VusCfWW00tzmyy4tMsTUr8nh1wc=
+  /snekfetch/3.6.4:
+    dev: false
+    resolution:
+      integrity: sha512-NjxjITIj04Ffqid5lqr7XdgwM7X61c/Dns073Ly170bPQHLm6jkmelye/eglS++1nfTWktpP6Y2bFXjdPlQqdw==
+  /snekfetch/4.0.4:
+    dev: false
+    resolution:
+      integrity: sha512-dyycG9fvwtSJqKPfMVOpXt+60qvMGe7vWLwOJDiSJaiAx+hs2EnFChG2bXCWn7ulz+zGzrHdN9/yeEb0YqEPww==
+  /sqlite3/3.1.13:
+    bundledDependencies:
+      - node-pre-gyp
+    dependencies:
+      nan: 2.7.0
+    dev: false
+    requiresBuild: true
+    resolution:
+      integrity: sha512-JxXKPJnkZ6NuHRojq+g2WXWBt3M1G9sjZaYiHEWSTGijDM3cwju/0T2XbWqMXFmPqDgw+iB7zKQvnns4bvzXlw==
+  /sshpk/1.14.2:
+    dependencies:
+      asn1: 0.2.3
+      assert-plus: 1.0.0
+      dashdash: 1.14.1
+      getpass: 0.1.7
+      safer-buffer: 2.1.2
+    dev: false
+    engines:
+      node: '>=0.10.0'
+    hasBin: true
+    optionalDependencies:
+      bcrypt-pbkdf: 1.0.2
+      ecc-jsbn: 0.1.1
+      jsbn: 0.1.1
+      tweetnacl: 0.14.5
+    resolution:
+      integrity: sha1-xvxhZIo9nE52T9P8306hBeSSupg=
+  /statuses/1.4.0:
+    dev: false
+    engines:
+      node: '>= 0.6'
+    resolution:
+      integrity: sha512-zhSCtt8v2NDrRlPQpCNtw/heZLtfUDqxBM1udqikb/Hbk52LK4nQSwr10u77iopCW5LsyHpuXS0GnEc48mLeew==
+  /statuses/1.5.0:
+    dev: false
+    engines:
+      node: '>= 0.6'
+    resolution:
+      integrity: sha1-Fhx9rBd2Wf2YEfQ3cfqZOBR4Yow=
+  /string-similarity/1.2.0:
+    dependencies:
+      lodash: 4.17.10
+    dev: false
+    resolution:
+      integrity: sha1-11FTyzg4RjGLejmo2SkrtNtOnDA=
+  /string_decoder/1.1.1:
+    dependencies:
+      safe-buffer: 5.1.2
+    dev: false
+    resolution:
+      integrity: sha512-n/ShnvDi6FHbbVfviro+WojiFzv+s8MPMHBczVePfUpDJLwoLT0ht1l4YwBCbi8pJAveEEdnkHyPyTP/mzRfwg==
+  /superagent/3.8.3:
+    dependencies:
+      component-emitter: 1.2.1
+      cookiejar: 2.1.2
+      debug: 3.1.0
+      extend: 3.0.1
+      form-data: 2.3.2
+      formidable: 1.2.1
+      methods: 1.1.2
+      mime: 1.6.0
+      qs: 6.5.2
+      readable-stream: 2.3.6
+    dev: false
+    engines:
+      node: '>= 4.0'
+    resolution:
+      integrity: sha512-GLQtLMCoEIK4eDv6OGtkOoSMt3D+oq0y3dsxMuYuDvaNUvuT8eFBuLmfR0iYYzHC1e8hpzC6ZsxbuP6DIalMFA==
+  /timed-out/4.0.1:
+    dev: false
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-8y6srFoXW+ol1/q1Zas+2HQe9W8=
+  /tough-cookie/2.3.4:
+    dependencies:
+      punycode: 1.4.1
+    dev: false
+    engines:
+      node: '>=0.8'
+    resolution:
+      integrity: sha512-TZ6TTfI5NtZnuyy/Kecv+CnoROnyXn2DN97LontgQpCwsX2XyLYCC0ENhYkehSOwAp8rTQKc/NUIF7BkQ5rKLA==
+  /tunnel-agent/0.6.0:
+    dependencies:
+      safe-buffer: 5.1.2
+    dev: false
+    resolution:
+      integrity: sha1-J6XeoGs2sEoKmWZ3SykIaPD8QP0=
+  /tweetnacl/0.14.5:
+    dev: false
+    optional: true
+    resolution:
+      integrity: sha1-WuaBd/GS1EViadEIr6k/+HQ/T2Q=
+  /tweetnacl/1.0.0:
+    dev: false
+    resolution:
+      integrity: sha1-cT2LgY2kIGh0C/aDhtBHnmb8ins=
+  /type-is/1.6.16:
+    dependencies:
+      media-typer: 0.3.0
+      mime-types: 2.1.18
+    dev: false
+    engines:
+      node: '>= 0.6'
+    resolution:
+      integrity: sha512-HRkVv/5qY2G6I8iab9cI7v1bOIdhm94dVjQCPFElW9W+3GeDOSHmy2EBYe4VTApuzolPcmgFTN3ftVJRKR2J9Q==
+  /unique-random-array/1.0.1:
+    dependencies:
+      unique-random: 1.0.0
+    dev: false
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha512-z9J/SV8CUIhIRROcHe9YUoAT6XthUJt0oUyLGgobiXJprDP9O9dsErNevvSaAv5BkhwFEVPn6nIEOKeNE6Ck1Q==
+  /unique-random/1.0.0:
+    dev: false
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-zj4iTIJCzTOg53sNcYDXfmti0MQ=
+  /unpipe/1.0.0:
+    dev: false
+    engines:
+      node: '>= 0.8'
+    resolution:
+      integrity: sha1-sr9O6FFKrmFltIF4KdIbLvSZBOw=
+  /unzip-response/2.0.1:
+    dev: false
+    engines:
+      node: '>=4'
+    resolution:
+      integrity: sha1-0vD3N9FrBhXnKmk17QQhRXLVb5c=
+  /url-parse-lax/1.0.0:
+    dependencies:
+      prepend-http: 1.0.4
+    dev: false
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-evjzA2Rem9eaJy56FKxovAYJ2nM=
+  /util-deprecate/1.0.2:
+    dev: false
+    resolution:
+      integrity: sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=
+  /utils-merge/1.0.1:
+    dev: false
+    engines:
+      node: '>= 0.4.0'
+    resolution:
+      integrity: sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=
+  /uuid/2.0.3:
+    dev: false
+    resolution:
+      integrity: sha1-Z+LoY3lyFVMN/zGOW/nc6/1Hsho=
+  /uuid/3.3.2:
+    dev: false
+    hasBin: true
+    resolution:
+      integrity: sha512-yXJmeNaw3DnnKAOKJE51sL/ZaYfWJRl1pK9dr19YFCu0ObS231AB1/LbqTKRAQ5kw8A90rA6fr4riOUpTZvQZA==
+  /vary/1.1.2:
+    dev: false
+    engines:
+      node: '>= 0.8'
+    resolution:
+      integrity: sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
+  /verror/1.10.0:
+    dependencies:
+      assert-plus: 1.0.0
+      core-util-is: 1.0.2
+      extsprintf: 1.4.0
+    dev: false
+    engines:
+      '0': node >=0.6.0
+    resolution:
+      integrity: sha1-OhBcoXBTr1XW4nDB+CiGguGNpAA=
+  /weather-js/2.0.0:
+    dependencies:
+      request: 2.87.0
+      xml2js: 0.4.19
+    dev: false
+    resolution:
+      integrity: sha1-DZvNsFpPhNBrm585kAKKYB6kofw=
+  /write-file-atomic/1.3.4:
+    dependencies:
+      graceful-fs: 4.1.11
+      imurmurhash: 0.1.4
+      slide: 1.1.6
+    dev: false
+    resolution:
+      integrity: sha1-+Aek8LHZ6ROuekgRLmzDrxmRtF8=
+  /ws/4.1.0:
+    dependencies:
+      async-limiter: 1.0.0
+      safe-buffer: 5.1.2
+    dev: false
+    resolution:
+      integrity: sha512-ZGh/8kF9rrRNffkLFV4AzhvooEclrOH0xaugmqGsIfFgOE/pIz4fMc4Ef+5HSQqTEug2S9JZIWDR47duDSLfaA==
+  /xdg-basedir/2.0.0:
+    dependencies:
+      os-homedir: 1.0.2
+    dev: false
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha1-7byQPMOF/ARSPZZqM1UEtVBNG9I=
+  /xml2js/0.4.19:
+    dependencies:
+      sax: 1.2.4
+      xmlbuilder: 9.0.7
+    dev: false
+    resolution:
+      integrity: sha512-esZnJZJOiJR9wWKMyuvSE1y6Dq5LCuJanqhxslH2bxM6duahNZ+HMpCLhBQGZkbX6xRf8x1Y2eJlgt2q3qo49Q==
+  /xmlbuilder/9.0.7:
+    dev: false
+    engines:
+      node: '>=4.0'
+    resolution:
+      integrity: sha1-Ey7mPS7FVlxVfiD0wi35rKaGsQ0=
+  /ytdl-core/0.20.4:
+    dependencies:
+      html-entities: 1.2.1
+      m3u8stream: 0.2.2
+      miniget: 1.2.0
+      sax: 1.2.4
+    dev: false
+    engines:
+      node: '>=4'
+    resolution:
+      integrity: sha512-d+jthiJxSQ6yqCeCwwMggXYOjFSOJsD7ahvAAE1sFW9nVNnsA/roz91SFH1FzaMGS7/y7AnJfhVgpE9i8uYjJQ==
+registry: 'https://registry.npmjs.org/'
+shrinkwrapMinorVersion: 8
+shrinkwrapVersion: 3
+specifiers:
+  canvas: ^1.6.11
+  canvas-constructor: ^1.0.1
+  cheerio: ^1.0.0-rc.2
+  cr.js: ^0.2.2
+  dbl-api: ^1.0.0
+  dblapi.js: ^2.0.1
+  discord-eco: 0.0.10
+  discord.js: ^11.3.2
+  express: ^4.16.3
+  figlet: ^1.2.0
+  fs: 0.0.1-security
+  gif-search: ^2.0.1
+  google-translate-api: ^2.3.0
+  he: ^1.1.1
+  http: 0.0.0
+  isgd: ^1.1.3
+  klasa: ^0.4.0
+  map: ^1.0.1
+  moment: ^2.22.0
+  moment-duration-format: ^2.2.2
+  nekos.life: ^1.0.6
+  opusscript: 0.0.6
+  parse-ms: ^2.0.0
+  random-puppy: ^1.1.0
+  request: ^2.85.0
+  simi: ^1.0.1
+  string-similarity: ^1.2.0
+  superagent: ^3.8.2
+  weather-js: ^2.0.0
+  xml2js: ^0.4.19
+  ytdl-core: ^0.20.2
